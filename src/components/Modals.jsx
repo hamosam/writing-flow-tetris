@@ -181,12 +181,22 @@ export function StartModal({
           })}
         </div>
 
-        <div className="rounded-2xl bg-slate-900/5 p-3 text-xs text-slate-600 leading-relaxed text-center">
-          <strong className="text-slate-800">조작 방법:</strong>{' '}
-          <span className="font-semibold">↑</span>(말투 바꾸기) ·{' '}
-          <span className="font-semibold">← / →</span>(원고지/휴지통 이동) ·{' '}
-          <span className="font-semibold">↓ / Space</span>(빠르게/즉시 착지) ·{' '}
-          <span className="font-semibold">P</span>(일시정지)
+        <div className="rounded-2xl bg-slate-900/5 p-3 text-xs text-slate-600 leading-relaxed space-y-1 text-center">
+          <div>
+            <strong className="text-slate-800">💻 PC 키보드:</strong>{' '}
+            <span className="font-semibold">↑</span>(말투) ·{' '}
+            <span className="font-semibold">← / →</span>(이동) ·{' '}
+            <span className="font-semibold">↓ / Space</span>(빠르게/즉시 착지) ·{' '}
+            <span className="font-semibold">P</span>(일시정지)
+          </div>
+          <div>
+            <strong className="text-slate-800">📱 태블릿 터치:</strong>{' '}
+            하단 조작 버튼 또는 <span className="font-semibold">문장 블록 터치</span>(말투) ·{' '}
+            <span className="font-semibold">원고지/휴지통 터치</span>(이동)
+          </div>
+        </div>
+        <div className="mt-2.5 text-center text-[11px] font-bold text-slate-400">
+          출처: 하모쌤
         </div>
       </div>
     </div>

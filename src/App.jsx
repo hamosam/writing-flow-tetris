@@ -694,6 +694,9 @@ export default function App() {
             onHardDrop={handleHardDrop}
             onTogglePause={handleTogglePause}
           />
+          <div className="text-center text-[11px] font-semibold text-white/70 drop-shadow-sm pb-1">
+            출처: 하모쌤
+          </div>
         </div>
       </main>
 
